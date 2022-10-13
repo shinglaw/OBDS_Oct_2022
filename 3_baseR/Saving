@@ -1,0 +1,187 @@
+[slaw@cbrglogin3 OBDS_Oct_2022]$ pwd
+/project/obds/slaw/git/OBDS_Oct_2022
+ct/obds/slaw/git/OBDS_Oct_2022]$ cp Activity1_2_3.R /proje 
+cp: cannot stat ‘Activity1_2_3.R’: No such file or directory
+[slaw@cbrglogin3 OBDS_Oct_2022]$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+[slaw@cbrglogin3 OBDS_Oct_2022]$ 2022-10-12T09:07:26.820954Z [rsession-slaw] ERROR system error 2 (No such file or directory) [description: Error changing directory: '/proc/20078/cwd']; OCCURRED AT rstudio::core::Error rstudio::core::system::ChildProcess::run() src/cpp/core/system/PosixChildProcess.cpp:738; LOGGED FROM: rstudio::core::Error rstudio::core::system::ChildProcess::run() src/cpp/core/system/PosixChildProcess.cpp:738
+[slaw@cbrglogin3 week2_day2]$ pwd
+/t1-data/project/obds/slaw/2_baseR/projects/week2_day2
+[slaw@cbrglogin3 week2_day2]$ ls
+Activity1_2_3.R  Day_2_Exercise1.R      Exercise02.R              Week1day3.R
+Activity_4.R     Day_2_Exercise1.RData  intervals_100kto200k.txt  week2_day2.Rproj
+a.RDS            Exercise01.R           Practice.R
+[slaw@cbrglogin3 week2_day2]$ ..
+bash: ..: command not found
+[slaw@cbrglogin3 week2_day2]$ cd ..
+[slaw@cbrglogin3 projects]$ ls
+week2_day2
+[slaw@cbrglogin3 projects]$ mkdir Day3
+[slaw@cbrglogin3 projects]$ ls
+Day3  week2_day2
+[slaw@cbrglogin3 projects]$ pwd
+/t1-data/project/obds/slaw/2_baseR/projects
+[slaw@cbrglogin3 projects]$ cd Day3
+[slaw@cbrglogin3 Day3]$ ls
+Day_2_Exercise1.R
+[slaw@cbrglogin3 Day3]$ pwd
+/t1-data/project/obds/slaw/2_baseR/projects/Day3
+[slaw@cbrglogin3 Day3]$ ls
+airquality_month_temp_order.rds    Day_2_Exercise1.R       My_First_Markdown.Rmd  Practice.RDS
+airquality_ordered_month_temp.csv  Day_2_Exercise1.RData   Practice.R
+a.RDS                              My_First_Markdown.html  Practice.RData
+[slaw@cbrglogin3 Day3]$ git status
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[slaw@cbrglogin3 Day3]$ cd Day_2_Exercise.R
+bash: cd: Day_2_Exercise.R: No such file or directory
+[slaw@cbrglogin3 Day3]$ ls
+airquality_month_temp_order.rds    Day_2_Exercise1.R       My_First_Markdown.Rmd  Practice.RDS
+airquality_ordered_month_temp.csv  Day_2_Exercise1.RData   Practice.R
+a.RDS                              My_First_Markdown.html  Practice.RData
+[slaw@cbrglogin3 Day3]$ status
+bash: status: command not found
+[slaw@cbrglogin3 Day3]$ dir
+airquality_month_temp_order.rds    Day_2_Exercise1.R       My_First_Markdown.Rmd  Practice.RDS
+airquality_ordered_month_temp.csv  Day_2_Exercise1.RData   Practice.R
+a.RDS                              My_First_Markdown.html  Practice.RData
+[slaw@cbrglogin3 Day3]$ pwd
+/t1-data/project/obds/slaw/2_baseR/projects/Day3
+[slaw@cbrglogin3 Day3]$ cp ^C
+[slaw@cbrglogin3 Day3]$ cp Day_2_Exercise1.R git@github.com:shinglaw/OBDS_Oct_2022.git
+cp: cannot create regular file ‘git@github.com:shinglaw/OBDS_Oct_2022.git’: No such file or directory
+[slaw@cbrglogin3 Day3]$ cd git@github.com:shinglaw/OBDS_Oct_2022.git
+bash: cd: git@github.com:shinglaw/OBDS_Oct_2022.git: No such file or directory
+[slaw@cbrglogin3 Day3]$ cp Day_2_Exercise1.R git@github.com:shinglaw/OBDS_Oct_2022
+cp: cannot create regular file ‘git@github.com:shinglaw/OBDS_Oct_2022’: No such file or directory
+[slaw@cbrglogin3 Day3]$ pwd
+/t1-data/project/obds/slaw/2_baseR/projects/Day3
+[slaw@cbrglogin3 Day3]$ dir
+airquality_month_temp_order.rds    Day_2_Exercise1.R       My_First_Markdown.Rmd  Practice.RDS
+airquality_ordered_month_temp.csv  Day_2_Exercise1.RData   Practice.R
+a.RDS                              My_First_Markdown.html  Practice.RData
+[slaw@cbrglogin3 Day3]$ cp Day_2_Exercise1.R /project/obds/slaw/git/
+[slaw@cbrglogin3 Day3]$ cd /project/obds/slaw/git/
+[slaw@cbrglogin3 git]$ dir
+Day_2_Exercise1.R  OBDS_Oct_2022  Testing11.10.22
+[slaw@cbrglogin3 git]$ mv Day_2_Exercise1.R OBDS_Oct_2022/
+2_baseR/    .git/       .gitignore  README.md   
+[slaw@cbrglogin3 git]$ mv Day_2_Exercise1.R OBDS_Oct_2022/
+2_baseR/    .git/       .gitignore  README.md   
+[slaw@cbrglogin3 git]$ mv Day_2_Exercise1.R OBDS_Oct_2022/2_baseR/
+[slaw@cbrglogin3 git]$ git status
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[slaw@cbrglogin3 git]$ git add ^C
+[slaw@cbrglogin3 git]$ git add Day_2_Exercise1.R
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[slaw@cbrglogin3 git]$ cd slaw/OBDS_Oct_2022.git
+bash: cd: slaw/OBDS_Oct_2022.git: No such file or directory
+[slaw@cbrglogin3 git]$ cp Day_2_Exercise1.R git@github.com:shinglaw/OBDS_Oct_2022
+cp: cannot stat ‘Day_2_Exercise1.R’: No such file or directory
+[slaw@cbrglogin3 git]$ git add Day_2_Exercise1.R 
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[slaw@cbrglogin3 git]$ pwd
+/project/obds/slaw/git
+[slaw@cbrglogin3 git]$ cd project/slaw/OBDS_Oct_2022
+bash: cd: project/slaw/OBDS_Oct_2022: No such file or directory
+[slaw@cbrglogin3 git]$ cd project/slaw/OBDS_Oct_2022.R
+bash: cd: project/slaw/OBDS_Oct_2022.R: No such file or directory
+[slaw@cbrglogin3 git]$ cd /t1-data/project/obds/slaw/2_baseR/projects/Day3
+[slaw@cbrglogin3 Day3]$ dir
+airquality_month_temp_order.rds    Day_2_Exercise1.R       My_First_Markdown.Rmd  Practice.RDS
+airquality_ordered_month_temp.csv  Day_2_Exercise1.RData   Practice.R
+a.RDS                              My_First_Markdown.html  Practice.RData
+[slaw@cbrglogin3 Day3]$ git add Day_2_Exercise1.R
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[slaw@cbrglogin3 Day3]$ cd /project/obds/slaw/git/
+[slaw@cbrglogin3 git]$ git add Day_2_Exercise1.R
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[slaw@cbrglogin3 git]$ cd project/slaw/OBDS_Oct_2022
+bash: cd: project/slaw/OBDS_Oct_2022: No such file or directory
+[slaw@cbrglogin3 git]$ cd project/slaw/OBDS_Oct_2022
+bash: cd: project/slaw/OBDS_Oct_2022: No such file or directory
+[slaw@cbrglogin3 git]$ cd /project/obds/slaw/git/OBDS_Oct_2022
+[slaw@cbrglogin3 OBDS_Oct_2022]$ dir
+2_baseR  README.md
+[slaw@cbrglogin3 OBDS_Oct_2022]$ cd 2_baseR
+[slaw@cbrglogin3 2_baseR]$ ls
+Activity_4.R  Day_2_Exercise1.R
+[slaw@cbrglogin3 2_baseR]$ dir
+Activity_4.R  Day_2_Exercise1.R
+[slaw@cbrglogin3 2_baseR]$ cd /project/obds/slaw/git/
+[slaw@cbrglogin3 git]$ ls
+OBDS_Oct_2022  Testing11.10.22
+[slaw@cbrglogin3 git]$ cd /project/obds/slaw/git/OBDS_Oct_2022
+[slaw@cbrglogin3 OBDS_Oct_2022]$ pwd
+/project/obds/slaw/git/OBDS_Oct_2022
+[slaw@cbrglogin3 OBDS_Oct_2022]$ ls
+2_baseR  README.md
+[slaw@cbrglogin3 OBDS_Oct_2022]$ cd 2_baseR
+[slaw@cbrglogin3 2_baseR]$ ls
+Activity_4.R  Day_2_Exercise1.R
+[slaw@cbrglogin3 2_baseR]$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Day_2_Exercise1.R
+
+nothing added to commit but untracked files present (use "git add" to track)
+[slaw@cbrglogin3 2_baseR]$ mv Day_2_Exercise1.R ..
+[slaw@cbrglogin3 2_baseR]$ ls
+Activity_4.R
+[slaw@cbrglogin3 2_baseR]$ cd ..
+[slaw@cbrglogin3 OBDS_Oct_2022]$ ls
+2_baseR  Day_2_Exercise1.R  README.md
+[slaw@cbrglogin3 OBDS_Oct_2022]$ mkdir 3_baseR
+[slaw@cbrglogin3 OBDS_Oct_2022]$ ls
+2_baseR  3_baseR  Day_2_Exercise1.R  README.md
+[slaw@cbrglogin3 OBDS_Oct_2022]$ mv Day_2_Exercise1.R 3_baseR/
+[slaw@cbrglogin3 OBDS_Oct_2022]$ ls
+2_baseR  3_baseR  README.md
+[slaw@cbrglogin3 OBDS_Oct_2022]$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        3_baseR/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[slaw@cbrglogin3 OBDS_Oct_2022]$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+[slaw@cbrglogin3 OBDS_Oct_2022]$ git add 3_baseR/
+[slaw@cbrglogin3 OBDS_Oct_2022]$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   3_baseR/Day_2_Exercise1.R
+
+[slaw@cbrglogin3 OBDS_Oct_2022]$ git commit -m "add script for day 3"
+[main 43658c3] add script for day 3
+ 1 file changed, 231 insertions(+)
+ create mode 100644 3_baseR/Day_2_Exercise1.R
+[slaw@cbrglogin3 OBDS_Oct_2022]$ git push
+Enter passphrase for key '/home/s/slaw/.ssh/id_ecdsa': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 40 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 2.72 KiB | 463.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:shinglaw/OBDS_Oct_2022.git
+   dc9299e..43658c3  main -> main
