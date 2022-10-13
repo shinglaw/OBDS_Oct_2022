@@ -1,0 +1,35 @@
+[slaw@cbrglogin3 day4]$ cp ggplot2.Rmd /project/obds/slaw/git/
+[slaw@cbrglogin3 day4]$ cd /project/obds/slaw/git/
+[slaw@cbrglogin3 git]$ d
+bash: d: command not found
+[slaw@cbrglogin3 git]$ dir
+ggplot2.Rmd  OBDS_Oct_2022  Testing11.10.22
+[slaw@cbrglogin3 git]$ mv ggplot2.Rmd OBDS_Oct_2022
+[slaw@cbrglogin3 git]$ cd OBDS_Oct_2022
+[slaw@cbrglogin3 OBDS_Oct_2022]$ ls
+2_baseR  3_baseR  day4  ggplot2.Rmd  README.md
+[slaw@cbrglogin3 OBDS_Oct_2022]$ mv ggplot2.Rmd day4
+[slaw@cbrglogin3 OBDS_Oct_2022]$ cd day4
+[slaw@cbrglogin3 day4]$ ls
+ggplot2.Rmd  oop.Rmd  superplot.pdf
+[slaw@cbrglogin3 day4]$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+[slaw@cbrglogin3 day4]$ git add .
+[slaw@cbrglogin3 day4]$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ggplot2.Rmd
+        new file:   oop.Rmd
+        new file:   superplot.pdf
+
+[slaw@cbrglogin3 day4]$ 
